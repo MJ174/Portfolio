@@ -1,13 +1,13 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import myImg from '../../Assets/avatar.svg';
+import Tilt from 'react-parallax-tilt';
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+} from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Home2() {
   return (
@@ -15,41 +15,30 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: '2.6em' }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              현재 프로그래밍과 보안을 배우고 있어요! 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              현재 쓰고 있는 언어는
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, Javascript 과 Python입니다. </b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              <br />제 관심 분야는 새로운 웹 기술 및 제품을 &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  구축하고 있으며 딥 러닝 및 자연어 처리와 관련된 분야이기도
+                  합니다.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              가능할 때마다 저는 React.js 및 Next.js와 같은 Node.js 및 최신
+              자바스크립트 라이브러리 및 프레임워크를 사용하여 제품 개발에
+              열정을 쏟습니다.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +56,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/MJ174"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +66,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.instagram.com/myongjins.0_0/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/myongjins.0_0/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
