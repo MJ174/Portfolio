@@ -24,19 +24,16 @@ function Home2() {
               <br />
               현재 쓰고 있는 언어는
               <i>
-                <b className="purple"> C++, Javascript 과 Python입니다. </b>
+                <b className="purple"> Javascript 과 Python입니다. </b>
               </i>
               <br />
               <br />제 관심 분야는 새로운 웹 기술 및 제품을 &nbsp;
               <i>
-                <b className="purple">
-                  구축하고 있으며 딥 러닝 및 자연어 처리와 관련된 분야이기도
-                  합니다.
-                </b>
+                <b className="purple">구축하는데 관심이 있습니다.</b>
               </i>
               <br />
               <br />
-              가능할 때마다 저는 React.js 및 Next.js와 같은 Node.js 및 최신
+              가능할 때마다 저는 React.js 및 Express.js와 같은 Node.js 및 최신
               자바스크립트 라이브러리 및 프레임워크를 사용하여 제품 개발에
               열정을 쏟습니다.
             </p>

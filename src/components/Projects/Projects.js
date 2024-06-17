@@ -14,7 +14,7 @@ function Projects() {
         <h1 className="project-heading">
           최근 <strong className="purple">작업물 </strong>
         </h1>
-        <p style={{ color: 'white' }}>이번 학기동안 만든 작업물들입니다.</p>
+        <p style={{ color: 'white' }}>최근 만든 작업물들입니다.</p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -22,9 +22,9 @@ function Projects() {
               isBlog={false}
               title="쇼핑몰"
               description="vsc를 이용하여 코딩했고
-              javascipts와 tailwind css를 이용했습니다."
-              ghLink="https://nextmall-navy.vercel.app/"
-              demoLink="https://nextmall-navy.vercel.app/"
+              Next.js와 tailwind css를 이용했습니다."
+              ghLink="https://github.com/MJ174/converse-main"
+              demoLink="https://converse-main-peach.vercel.app/"
             />
           </Col>
 
@@ -32,10 +32,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="NEXT-JS를 이용한 나의 홈페이지 만들기"
-              description="이제 처음 js를 배우면서 하게 된 프로젝트인데
-              홈페이지 디자인과 백엔드와 프론트엔드를 다룰수 있게 되었습니다."
-              ghLink="https://github.com/MJ174/next-js"
+              title="파이썬,JS 기반 악성코드/바이러스 탐지 웹사이트"
+              description="악성코드 점검 웹 사이트를 직접 제작하고 운영함으로써 실습 경험을 했습니다"
+              ghLink="https://github.com/MJ174/VIRUS_WEB"
               demoLink="https://nextjs-coral-delta-21.vercel.app/"
             />
           </Col>
@@ -44,10 +43,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="중고거래 장터"
-              description="기말고사 과제로 4명이서 한 중부 중고거래 장터입니다. 직거래 기반으로 만들었고 채팅기능과 게시판 그리고 판매물품등록등 다양한 기능을 넣었습니다."
-              ghLink="https://github.com/JBmarket/JBmarket"
-              demoLink="http://localhost:3000"
+              title="반려인들을 위한 포털사이트"
+              description="졸업작품으로 개발중인 반려인들을 위한 포털사이트입니다. Express.js, React.js, MongoDB를 사용하여 개발하였습니다"
+              ghLink="https://github.com/My-cat-eats-churros/portalsite"
+              demoLink="https://portalsite-main.vercel.app/"
             />
           </Col>
         </Row>

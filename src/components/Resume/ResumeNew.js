@@ -2,14 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Particle from '../Particle';
-import pdf from '../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf';
+import pdf from '../../Assets/../Assets/backend developer.pdf';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  'file:///C:/Users/rahim/Downloads/sw%20%EC%9C%B5%ED%95%A9%C2%B7sw%20%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%8B%A0%EC%9E%85%EC%82%AC%EC%9B%90%20%EC%83%81%EC%8B%9C%EB%AA%A8%EC%A7%91_%EB%AA%A8%EC%A7%91%EB%8B%A8%EC%9C%84%20%EC%83%81%EC%84%B8.PDF';
+const resumeLink = '"C:Users\rahimDownloads백엔드 개발자 이력서.docx"';
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

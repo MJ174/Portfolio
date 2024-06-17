@@ -15,14 +15,14 @@ function AboutCard() {
             저는 현재 중부대학교에서 재학중인 학생입니다.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            코딩 외에도 제가 좋아하는 활동이 있어요!
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Soccer
+              <ImPointRight /> Workout
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
